@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+int main()
+
+{
+	int x;
+	cin >> x;
+	int c = x / 100, a = (x / 10) % 10, b = x % 10;
+	int ans = a * 100 + c * 10 + b;
+	cout << ans;
+	return 0;

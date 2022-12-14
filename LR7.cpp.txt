@@ -1,0 +1,22 @@
+#include <iostream> 
+#include <iomanip> 
+#include "windows.h"
+
+using namespace std;
+
+int main()
+{
+    int x, n = 7;
+    cout << "Enter x: ";
+    cin >> x;
+    float y;
+    int sum = 0;
+    for (int i = 1; i <= 7; i++)
+    {
+        sum = sum + i;
+    }
+    y = tan(sum = 3 * x);
+    cout << "y=" << y << endl;
+    system("pause");
+    return 0;
+}
